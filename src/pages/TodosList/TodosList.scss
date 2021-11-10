@@ -1,0 +1,14 @@
+.todos {
+    background: #FFF;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid #EEE;
+    padding: 20px 20px 30px;
+    max-height: calc(100vh - 320px);
+    overflow: auto;
+}
+
+.add-todo {
+    text-align: center;
+    transform: translateY(-50%);
+}

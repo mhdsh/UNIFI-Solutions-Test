@@ -1,0 +1,40 @@
+.weather-widget {
+  padding: 20px;
+  background: #FFF;
+  border: 1px solid #EEE;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 50px;
+
+  .city {
+    font-size: 2rem;
+  }
+
+  .date {
+    font-size: 1.2rem;
+    color: #777;
+  }
+
+  img {
+    position: relative;
+    left: -25px;
+  }
+
+  .status {
+    div {
+      font-size: 1.5rem;
+      margin-top: -10px;
+    } 
+  }
+
+  .degree {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    font-size: 5rem;
+
+    span {
+      font-size: 4rem;
+    }
+  }
+}
